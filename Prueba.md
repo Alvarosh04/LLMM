@@ -22,4 +22,4 @@ acento grave à,
 
  `#RRGGBB`
 
- ![foto de gato con tentaculos.](https://myoctocat.com/assets/images/base-octocat.svg)
+ ![foto.](https://sl.bing.net/g4R1C72tp9w)
