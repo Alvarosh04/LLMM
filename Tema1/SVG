@@ -1,0 +1,11 @@
+<html>
+<body>
+
+<h1>Mi primer svg</h1>
+
+<svg width="113" height="120" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="60" cy="60" r="50" stroke="blue" stroke-width="4" fill="red" />
+</svg>
+
+</body>
+</html>
