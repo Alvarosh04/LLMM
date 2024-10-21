@@ -9,6 +9,6 @@ Ejercicios | Descripción
 [Ejercicio 3](Tema1/SVG)  | ¿Qué es SVG? Busca un ejemplo.
 [Ejercicio 4](Tema1/Ejercicio_4.html)  | Crea una página con el texto facilitado e incluye las etiquetas necesaria
 [Ejercicio 5](Tema1/Ejercicio_5.html)  | Crea una página html que incluya seis niveles de cabecera seguidas de un pequeño párrafo de texto.
-[Ejercicio 6](Tema1/Ejercicio_1.html)  |
-[Ejercicio 7](Tema1/Ejercicio_1.html)  |
-[Ejercicio 8](Tema1/Ejercicio_1.html)
+[Ejercicio 6](Tema1/Ejercicio_6.html)  |
+[Ejercicio 7](Tema1/Ejercicio_7.html)  |
+[Ejercicio 8](Tema1/Ejercicio_8.html)  |
