@@ -12,3 +12,16 @@ Ejercicios | Descripción
 [Ejercicio 3](Tema1/Ejercicio_6.html)  |
 [Ejercicio 4](Tema1/Ejercicio_7.html)  |
 [Ejercicio 5](Tema1/Ejercicio_8.html)  |
+[Ejercicio 6](Tema1/Ejercicio_8.html)  |
+[Ejercicio 7](Tema1/Ejercicio_8.html)  |
+[Ejercicio 8](Tema1/Ejercicio_8.html)  |
+[Ejercicio 9](Tema1/Ejercicio_8.html)  |
+[Ejercicio 10](Tema1/Ejercicio_8.html)  |
+[Ejercicio 11](Tema1/Ejercicio_8.html)  |
+[Ejercicio 12](Tema1/Ejercicio_8.html)  |
+[Ejercicio 13](Tema1/Ejercicio_8.html)  |
+[Ejercicio 14](Tema1/Ejercicio_8.html)  |
+[Ejercicio 15](Tema1/Ejercicio_8.html)  |
+[Ejercicio 16](Tema1/Ejercicio_8.html)  |
+[Ejercicio 17](Tema1/Ejercicio_8.html)  |
+
