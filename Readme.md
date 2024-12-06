@@ -14,7 +14,7 @@ Ejercicios | Descripción
 [Ejercicio 5](Tema1/Ejercicio_5.html)  | Crea una página que contenga varios párrafos, con distinta alineación y con encabezados.
 [Ejercicio 6](Tema1/Ejercicio_6.html)  | Modifica la página anterior para incluir distintos formatos de texto.
 [Ejercicio 7](Tema1/Ejercicio_7.html)  | Cambia los atributos de la página para cambiar el fondo y color. Prueba con las distintas opciones. 
-[Ejercicio 8](Tema1/Ejercicio_8.html)  |
+[Ejercicio 8](Tema1/Portfolio)  |
 [Ejercicio 9](Tema1/Ejercicio_9.html)  |
 [Ejercicio 10](Tema1/Ejercicio_10.html)  |
 [Ejercicio 11](Tema1/Ejercicio_11.html)  |
