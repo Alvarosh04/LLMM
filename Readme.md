@@ -4,7 +4,7 @@ Esto es un repositorio que contiene las actividades de LMAR de ASIR
 ## Tema 1 - HTML
 Ejercicios | Descripción
 ---------|----------
-[Ejercicio practica 1](Primera practica de lmar.html) | Crea una página web sencilla con un encabezado h1 y un pequeño párrafo de texto de tu elección.
+[Ejercicio practica 1](Primerapracticadelmar.html) | Crea una página web sencilla con un encabezado h1 y un pequeño párrafo de texto de tu elección.
 [Ejercicio practica 2](XML)  | Crea un documento xml que incluya información sobre un par de libros de una biblioteca.
 [Ejercicio practica 3](SVG)  | ¿Qué es SVG? Busca un ejemplo.
 [Ejercicio 1](Tema1/Ejercicio_1.html)  | Crea una página con el texto facilitado e incluye las etiquetas necesaria
