@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 25</title>
+</head>
+<body>
+    <form>
+        <label for="fname"> Nombre:</label><br>
+        <input type="text" id="fname" name="fname" value="Alvaro"><br>
+        <label for="lname">Apellido:</label><br>
+        <input type="text" id="lname" name="lname" value="Sanchez"><br>
+        <label for="cntraseña">Contraseña:</label><br>
+        <input type="password" id="cntraseña" name="cntraseña" value="123456"><br>
+        <label for="dni">DNI:</label><br>
+        <input type="text" id="dni" name="dni" value="54790270S"><br>
+        <label for="html">Sexo</label><br>
+        <input type="radio" id="sexo" name="Masculino" value="sexo">Masculino<br>
+        <input type="radio" id="sexo" name="Masculino" value="sexo">Femenino<br>
+        <label for="fname">Incluir mi foto:</label>
+        <input type="text" id="dni" name="dni" value="">
+        <input type="submit" value="Elegir..."><br>
+        <input type="checkbox" id="Suscribirmealvoletindenovedades" name="Suscribirmealvoletindenovedades" value="Bike">
+        <label for="Suscribirmealvoletindenovedades">Suscribirme al voletin de novedades</label><br>
+        <p><input type="submit" value="Guardar cambios">
+        <input type="submit" value="Borrar los datos introducidos"></p><br>
+    </form>
+
+    <form> Datos personales:<br>
+         <label for="provincias">Provincia:</label>
+            <select id="provincias" name="provincias">
+                <option value="-selecciona-">-selecciona-</option>
+                <option value="almeria">Almería</option>
+                <option value="cadiz">Cádiz</option>
+                <option value="cordoba">Córdoba</option>
+                <option value="granada">Granada</option>
+                <option value="huelva">Huelva</option>
+                <option value="jaen">Jaén</option>
+                <option value="malaga">Málaga</option>
+                <option value="sevilla">Sevilla</option>
+            </select><br>
+        <label for="Fecha">Fecha de nacimiento</label>
+        <input type="number" id="Fecha" name="Fecha" style="width: 8%;" min="1" max="31" >de
+        <select id="Fecha" name="Fecha">
+          <option value="Enero">Enero</option>
+          <option value="Febrero">Febrero</option>
+          <option value="Marzo">Marzo</option>
+          <option value="Abril">Abril</option>
+          <option value="Mayo">Mayo</option>
+          <option value="Junio">Junio</option>
+          <option value="Julio">Julio</option>
+          <option value="Agosto">Agosto</option>
+          <option value="Septiembre">Septiembre</option>
+          <option value="Octubre">Octubre</option>
+          <option value="Noviembre">Noviembre</option>
+          <option value="Diciembre">Diciembre</option>
+        </select>de
+        <input type="text" id="Fecha" name="Fecha" style="width: 8%;">
+    </form>  
+    
+    <form>Temas de interés<br>
+        <select name="transporte" size="5">
+            <option value="Administración de bases de datos">Administración de bases de datos</option>
+            <option value="Analisis y programacion">Análisis y programación</option>
+            <option value="Arquitectura">Arquitectura</option>
+            <option value="Calidad">Calidad</option>
+            <option value="ERP">ERP</option>
+            <option value="CRM">CRM</option>
+            <option value="Business Intelligence">Business Intelligence</option>
+            <option value="Salud Mental">Salud Mental</option>
+            <option value="Influencer">Influencer</option>
+        </select>
+    </form>
+</body>
+</html>
