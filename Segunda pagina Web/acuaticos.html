@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Animales Acuáticos Más Fuertes</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        p {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        body {
+            background-image: url(Imagenes-acua/fondo\ marino.jpeg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+
+        h1 {
+            color: black;
+        }
+
+        p{
+            color: white;
+        }
+
+        .container {
+            z-index: 2;
+        }
+
+        /* Mejora en la presentación de las imágenes */
+        .animal-img {
+            width: 560;
+            height: 315px;
+            border-radius: 10px;
+        }
+
+        iframe {
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .list-group-item {
+            background-color: rgba(0, 0, 0, 0.6);
+            border: none;
+            color: white;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+
+        .list-group-item strong {
+            font-size: 18px;
+        }
+
+        /* Estilo para el botón */
+        .btn-habitat {
+            margin-top: 10px;
+        }
+
+        /* Estilo para mostrar el hábitat */
+        .habitat {
+            display: none;
+            background-color: #f8f9fa;
+            padding: 10px;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Animales Fuertes</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="terrestres.html">Terrestres</a></li>
+                    <li class="nav-item"><a class="nav-link" href="aereos.html">Aéreos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+        <li class="nav-item">
+            <button class="btn btn-warning" onclick="printPage()">Imprimir Página</button>
+        </li>
+        
+    </nav>
+    
+    <div class="container mt-4">
+        <h1>Animales Acuáticos Más Fuertes</h1>
+        <p style="font-size: 25px; color: black;">Aquí conocerás algunos de los animales acuáticos más poderosos del planeta.</p>
+        <ul class="list-group">
+            <!-- Tiburón Blanco -->
+            <li class="list-group-item">
+                <strong>Tiburón Blanco:</strong> 
+                Los tiburones blancos deben su nombre a su vientre blanco, pero su parte superior puede ser marrón o gris. Este marcado contraste entre coloraciones se conoce como contraluz y permite a muchas especies de peces mimetizarse con su entorno. La infame sonrisa del gran tiburón blanco está formada por siete filas de dientes serrados de 6 centímetros de largo. Aunque estos animales poseen unos 300 dientes en total, la mayoría no se utilizan para morder. 
+                De los 100 o más ataques de tiburón registrados anualmente en todo el mundo, entre un tercio y la mitad son atribuibles al tiburón blanco. Las hembras son más grandes que los machos, de modo que estas llegan a medir unos 6 m, mientras que ellos unos 4 m aproximadamente. No obstante, cabe destacar que hay reportes de individuos de mayores dimensiones. En general, pesan más de una tonelada.El hábitat del tiburón blanco se encuentra cerca de zonas costeras, pero también en alta mar, es decir, en mar abierto. De este modo, es una especie principalmente pelágica. 
+                Tiene preferencia por aguas templadas y puede hacer vida tanto cerca de la superficie como también a profundidades de unos 1 200 m. Es una especie generalmente solitaria, sin embargo, hay reportes que indican que pueden ir en parejas o pequeños grupos, de modo que se estima en estos casos el establecimiento de relaciones jerárquicas basadas principalmente en el tamaño de los individuos. 
+                
+                <p><img src="Imagenes-acua/tiburon blanco.jpg" alt="Tiburón Blanco" class="animal-img" width="400px">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Oza3DOAR2gg?si=-du4MFLLxwAAVbH5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+                <button class="btn btn-primary btn-habitat" onclick="mostrarHabitat('tiburon')">Mostrar Hábitat</button>
+                <div id="tiburon" class="habitat">
+                    <img src="Imagenes-acua/habitat-del-tiburon-blanco.png" alt="Hábitat del tiburón blanco">
+                </div>
+            </li>
+            
+            <!-- Orca -->
+            <li class="list-group-item">
+                <strong>Orca:</strong> 
+                La orca, también conocida como ballena asesina, es un mamífero marino muy inteligente y social. Aunque es un delfín, la orca es el más grande de su especie, alcanzando hasta 9 metros de largo y un peso de 5,500 kg. Su dieta es variada, incluyendo peces, focas, delfines, y hasta ballenas.
+
+                Las orcas son conocidas por su capacidad para cazar en grupo, utilizando técnicas cooperativas para atrapar presas más grandes. Habitan en todos los océanos, desde las aguas frías del Ártico hasta las más cálidas, pero se encuentran principalmente en las aguas costeras y cercanas a las plataformas de hielo.
+                Las orcas cazan en manadas mortales, es decir, grupos familiares de hasta 40 individuos. Parece que hay poblaciones de orcas residentes y transitorias. Estos grupos pueden alimentarse de diferentes animales y servirse de varias técnicas para capturarlos.
+                Las orcas son mamíferos muy inteligentes y sociables. Aunque durante mucho tiempo han sido las protagonistas absolutas de los espectáculos de entretenimiento de los parques marinos, cada vez está más claro que las orcas no prosperan en cautividad.
+                Han evolucionado para nadar hasta 64 kilómetros al día, buscando comida y haciendo ejercicio. Se sumergen entre 30 y 150 metros a diario y varias veces al día.
+
+                <p><img src="Imagenes-acua/orca.jpg" alt="Orca" class="animal-img" width="400px">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/fs8ZveNZQ8g?si=U0qg13T0U6cNBHvi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+                <button class="btn btn-primary btn-habitat" onclick="mostrarHabitat('orca')">Mostrar Hábitat</button>
+                <div id="orca" class="habitat">
+                    <img src="Imagenes-acua/habitat orca.jpg" alt="Hábitat de la orca">
+                </div>
+            </li>
+
+            <!-- Cocodrilo del Nilo -->
+            <li class="list-group-item">
+                <strong>Cocodrilo del Nilo:</strong> 
+                El cocodrilo del Nilo es uno de los reptiles más grandes y peligrosos del mundo. Puede medir hasta 5 metros de largo y pesar más de 1,600 kg. Su mandíbula, extremadamente fuerte, tiene la capacidad de aplastar huesos con gran facilidad. 
+                Es un depredador oportunista que se alimenta de una amplia gama de animales, incluyendo mamíferos, aves, e incluso otras especies de reptiles. A pesar de su aspecto feroz, el cocodrilo del Nilo tiene un lado sorprendentemente protector cuando se trata de sus crías. Las hembras construyen nidos en la orilla y vigilan sus huevos durante meses, defendiéndolos de depredadores como varanos o hienas. Cuando los pequeños cocodrilos nacen, la madre los transporta en su boca hasta el agua y los protege durante sus primeros meses de vida.
+                Este reptil ha tenido un papel importante en la cultura africana a lo largo de la historia. En el antiguo Egipto, era venerado como una manifestación del dios Sobek, asociado con la fertilidad y la fuerza. Sin embargo, en la actualidad, es visto con miedo por las comunidades que habitan cerca de los ríos, ya que es responsable de numerosos ataques a personas. 
+
+                Se encuentra principalmente en los ríos, lagos y pantanos del continente africano. Su gran tamaño y fuerza lo hacen una de las criaturas más temibles de su hábitat, y se le considera uno de los depredadores más eficaces.
+
+                <p><img src="Imagenes-acua/cocodrilo del nilo.jpg" alt="Cocodrilo del Nilo" class="animal-img" width="400px">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ATTj7p8cAS8?si=tw-jFtxPQN-rPvxN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+                <button class="btn btn-primary btn-habitat" onclick="mostrarHabitat('cocodrilo')">Mostrar Hábitat</button>
+                <div id="cocodrilo" class="habitat">
+                    <img src="Imagenes-acua/cocodrilo_del_Nilo-habitat.jpg" alt="Hábitat del cocodrilo del Nilo" width="600px" height="400px">
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function mostrarHabitat(animal) {
+            const habitatDiv = document.getElementById(animal);
+            if (habitatDiv.style.display === "none" || habitatDiv.style.display === "") {
+                habitatDiv.style.display = "block";
+            } else {
+                habitatDiv.style.display = "none";
+            }
+        }
+    </script>
+    
+    <script src="lenguaje.js"></script>
+</body>
+</html>
+
+ 
