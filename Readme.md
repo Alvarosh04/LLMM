@@ -5,6 +5,7 @@ Esto es un repositorio que contiene las actividades de LMAR de ASIR
 Ejercicios | Descripción
 ---------|----------
 [Pagina web](PaginaWeb/PaginaWeb) | Esta es mi pagina web
+[Segunda pagina web]() | Esta es mi pagina web
 [Ejercicio practica 1](Primerapracticadelmar.html) | Crea una página web sencilla con un encabezado h1 y un pequeño párrafo de texto de tu elección.
 [Ejercicio practica 2](XML)  | Crea un documento xml que incluya información sobre un par de libros de una biblioteca.
 [Ejercicio practica 3](SVG)  | ¿Qué es SVG? Busca un ejemplo.
