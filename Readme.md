@@ -37,7 +37,9 @@ Ejercicios | Descripción
 ## Trimestre 2
 Ejercicios | Descripción
 ---------|----------
-[Practica Bootstrap]() | 
+[Practica Bootstrap](Practicabootstrap/index.html) | Codigos de Segunda Pagina web
+[Enlace a la pagina Web] | Este es el enlace para entrar en la pagina: https://llmm-eight.vercel.app/index.html
+
 
 
 
