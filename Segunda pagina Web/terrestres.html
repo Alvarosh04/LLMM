@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Animales Terrestres</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        p {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        body {
+            background-image: url(Imagenes/fondo\ ter.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+
+        h1 {
+            color: black;
+        }
+
+        p{
+            color: white;
+        }
+
+        .container {
+            z-index: 2;
+        }
+
+        .animal-img {
+            width: 560;
+            height: 315px;
+            border-radius: 10px;
+        }
+
+        iframe {
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .list-group-item {
+            background-color: rgba(0, 0, 0, 0.6);
+            border: none;
+            color: white;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+
+        .list-group-item strong {
+            font-size: 18px;
+        }
+
+        .btn-habitat {
+            margin-top: 10px;
+        }
+
+    
+        .habitat {
+            display: none;
+            background-color: #f8f9fa;
+            padding: 10px;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Animales Fuertes</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="acuaticos.html">Acuáticos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="aereos.html">Aéreos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+        <li class="nav-item">
+            <button class="btn btn-warning" onclick="printPage()">Imprimir Página</button>
+        </li>
+        
+    </nav>
+    
+    <div class="container mt-4">
+        <h1>Animales Terrestres Más Fuertes</h1>
+        <p style="font-size: 25px; color: black;">Aquí conocerás algunos de los animales terrestres más poderosos del planeta.</p>
+        <ul class="list-group">
+
+            
+            <li class="list-group-item">
+                <strong>Elefante:</strong> 
+                Son los animales terrestres más grandes del mundo, siendo el elefante africano el de mayor tamaño, ya que puede llegar a pesar hasta 7,000-7,500 kg. Las hembras por lo regular son más pequeñas. 
+
+                La trompa del elefante, que contiene 100 mil músculos y tendones, juega un papel muy importante y necesario para su vida. Con ella puede agarrar, respirar, alimentarse, oler, beber agua, levantar objetos, producir sonidos, comunicarse, bañarse, defenderse, protegerse y detectar a otros miembros. De igual manera poseen colmillos muy grandes y fuertes hechos de marfil que pueden pesar hasta 120 kg y tener tres metros de longitud en casos extremos, aunque comúnmente miden menos de un metro. Puede levantar hasta 9,000 kg con su trompa. Se alimentan de hierbas, ramas, cortezas de árboles y arbustos, llegando a consumir al día hasta 200 kg. Pueden beber diariamente 152 litros de agua, y en el caso de un macho adulto de gran tamaño, logra beber en menos de cinco minutos hasta 212 litros de este líquido.
+                <p><img src="Imagenes/Elefante.jpg" alt="Elefante" class="animal-img" width="400px">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/zhEtiYwiHfs?si=wqbXpUdHnwYyP-lj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+                <button class="btn btn-primary btn-habitat" onclick="mostrarHabitat('elefante')">Mostrar Hábitat</button>
+                <div id="elefante" class="habitat">
+                    <img style="color: black;" src="Imagenes/habitat elefante.jpg" alt="habitat de elefante">
+                </div>
+            </li>
+            
+            
+            <li class="list-group-item">
+                <strong>Gorila:</strong> 
+                Estos enormes primates son los más grandes del mundo en su especie y se encuentran en grave peligro de extinción. Los machos pueden llegar a medir hasta 1.80 metros y pesar más de 200 kilos. Usan los brazos para caminar, pues son más largos que sus piernas, y cuentan con pulgares oponibles en ambas extremidades.
+
+                Son herbívoros y tienen una esperanza de vida de entre 30 y 50 años. Un gorila adulto puede levantar más de 10 veces su peso corporal. Viven en grupos familiares de entre 5 y 10 individuos normalmente, pero se conocen casos de parejas y de grupos de más de 50, liderados por un macho dominante que mantiene su posición durante años. Los gorilas viven en bosques tropicales y subtropicales en las regiones de África central. Prefieren áreas boscosas y áreas de montaña donde pueden encontrar alimentos con facilidad.
+
+                <p><img src="Imagenes/gorila.jpg" alt="Gorila" class="animal-img">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/1Z6JRjM7kWY?si=jLLNPdecuZvrcZAz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+                <button class="btn btn-primary btn-habitat" onclick="mostrarHabitat('gorila')">Mostrar Hábitat</button>
+                <div id="gorila" class="habitat">
+                    <img style="color: black;" src="Imagenes/habitat gorila.jpg" alt="habitat gorila" width="420px" h> <img src="Imagenes/habitat gorila 1.jpg" alt="habitat de gorila mapa" width="520px" height="520px">
+                </div>
+            </li>
+
+           
+            <li class="list-group-item">
+                <strong>Oso Grizzly:</strong> 
+                El oso grizzly es uno de los depredadores más fuertes de América del Norte. Puede llegar a pesar entre 300 y 700 kg. Su musculatura y fuerza le permiten cazar presas grandes, como alces y ciervos. Además, es capaz de nadar grandes distancias y trepar árboles. Los osos grizzly también son conocidos por su agresividad cuando se sienten amenazados, lo que los convierte en uno de los animales más temidos de su hábitat.
+
+                El grizzly es un excelente cazador solitario, pero también se alimenta de frutos, raíces y vegetales. Su fuerza es tal que puede arrancar árboles pequeños con facilidad y defender su territorio de cualquier intruso. Estos imponentes gigantes tienden a ser animales solitarios, con la excepción de las hembras y sus cachorros, pero a veces se congregan. Se pueden ver espectaculares reuniones de osos en los principales lugares de pesca de Alaska cuando los salmones corren río arriba para el desove de verano. En esta temporada, docenas de osos pueden reunirse para darse un festín con los peces, anhelando grasas que los sostendrán durante el largo invierno que se avecina.
+
+                Los grizzlies cavan madrigueras para la hibernación, a menudo escondiéndose en una ladera de aspecto adecuado. Las hembras dan a luz durante este descanso invernal, a menudo a gemelos. El oso grizzly habita en bosques de coníferas, zonas montañosas, y en áreas cercanas a ríos y lagos en América del Norte, especialmente en Canadá y Alaska.
+
+                <p><img src="Imagenes/oso.jpg" alt="Oso Grizzly" class="animal-img" width="400px">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/tfcXdzajWxg?si=-T1UNW6akMhUBheX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+                <button class="btn btn-primary btn-habitat" onclick="mostrarHabitat('grizzly')">Mostrar Hábitat</button>
+                <div id="grizzly" class="habitat">
+                    <img style="color: black;" src="Imagenes/habitat oso.jpg" alt="habitat oso" width="420px" height="340"> 
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function mostrarHabitat(animal) {
+            const habitatDiv = document.getElementById(animal);
+            if (habitatDiv.style.display === "none" || habitatDiv.style.display === "") {
+                habitatDiv.style.display = "block";
+            } else {
+                habitatDiv.style.display = "none";
+            }
+        }
+    </script>
+    
+    <script src="lenguaje.js"></script>
+</body>
+</html>
