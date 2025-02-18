@@ -5,7 +5,6 @@ Esto es un repositorio que contiene las actividades de LMAR de ASIR
 Ejercicios | Descripción
 ---------|----------
 [Pagina web](PaginaWeb/PaginaWeb) | Esta es mi pagina web
-[Segunda pagina web](Segunda pagina Web/index.html) | Esta es mi pagina web
 [Ejercicio practica 1](Primerapracticadelmar.html) | Crea una página web sencilla con un encabezado h1 y un pequeño párrafo de texto de tu elección.
 [Ejercicio practica 2](XML)  | Crea un documento xml que incluya información sobre un par de libros de una biblioteca.
 [Ejercicio practica 3](SVG)  | ¿Qué es SVG? Busca un ejemplo.
@@ -33,3 +32,12 @@ Ejercicios | Descripción
 [Ejercicio 23](Tema1/Ejercicio_23.html)  | Crea una página que incluya una barra de menús: “html | css | javascript | Ajax”. A continuación se mostrará un iFrame en el que se visualizará el apartado correspondiente de la página “uniwebsidad” de cada uno de los enlaces del menú anterior. La anchura del iFrame será el 90% de la página e incluirá un borde de 1px.
 [Ejercicio 24](Tema1/Ejercicio_24.html)  | Display the following HTML form:
 [Ejercicio 25](Tema1/Ejercicio_25.html)  | Append new controls to last exercise.
+
+
+## Trimestre 2
+Ejercicios | Descripción
+---------|----------
+[Practica Bootstrap]() | 
+
+
+
