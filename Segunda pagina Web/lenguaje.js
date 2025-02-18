@@ -1,5 +1,5 @@
 function changeLanguage() {
-    // Cambiar texto a inglés
+    
     document.getElementById("animals").innerText = "Strong Animals";
     document.getElementById("list-animals").innerHTML = `
         <li class="nav-item"><a class="nav-link" href="terrestres.html" style="color: white;">Terrestial</a></li>
@@ -35,13 +35,12 @@ function changeLanguage() {
         <li><strong>Lion:</strong> The lion is considered the king of the African savannah due to its incredible strength and ability to hunt in groups. Male lions can weigh up to 250 kilograms and have a powerful jaw that allows them to take down large prey such as zebras and antelopes. Their sharp claws and musculature give them the necessary strength to dominate the ecosystem.</li>
     `;
 
-    // Cambiar el botón de idioma
     document.querySelector(".btn").innerText = "Cambiar a Español";
     document.querySelector(".btn").setAttribute("onclick", "changeLanguageBack()");
 }
 
 function changeLanguageBack() {
-    // Cambiar texto de vuelta a español
+    
     document.getElementById("animals").innerText = "Animales Fuertes";
     document.getElementById("main-title").innerText = "Bienvenidos a Animales Más Fuertes del Mundo";
     document.getElementById("main-description").innerText = "Descubre las criaturas más poderosas del planeta en distintos hábitats. En este sitio web, exploramos los animales que destacan por su increíble fuerza y resistencia.";
@@ -78,12 +77,11 @@ function changeLanguageBack() {
     `;
 
 
-    // Cambiar el botón de idioma
     document.querySelector(".btn").innerText = "Switch to English";
     document.querySelector(".btn").setAttribute("onclick", "changeLanguage()");
 
 }
 
 function printPage() {
-    window.print(); // Abre el diálogo de impresión del navegador
+    window.print(); 
 }
