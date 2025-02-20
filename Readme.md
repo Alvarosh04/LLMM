@@ -39,7 +39,9 @@ Ejercicios | Descripción
 ---------|----------
 [Practica Bootstrap](Practicabootstrap/index.html) | Codigos de Segunda Pagina web
 [Enlace a la pagina Web] | Este es el enlace para entrar en la pagina: https://llmm-eight.vercel.app/index.html
-Ejercicios css | Descripción
+
+Ejercicios | Descripción
+---------|----------
 
 
 
