@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Animales Aereos Más Fuertes</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+        <style>
+            body {
+                background-image: url(imagenes-aere/fondo\ del\ cielo.jpeg);
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+                color: white;
+            }
+            
+            h1, p {
+                text-align: center;
+                color: rgb(255, 255, 255);
+            }
+            
+            .list-group-item {
+                background-color: rgba(0, 0, 0, 0.6);
+                color: white;
+                border-radius: 8px;
+                margin-bottom: 20px;
+                padding: 15px;
+            }
+            
+            .animal-img {
+                width: 100%;
+                max-width: 400px;
+                height: auto;
+                border-radius: 10px;
+                display: block;
+                margin: 10px auto;
+            }
+            
+            iframe {
+                width: 100%;
+                max-width: 560px;
+                height: 315px;
+                border-radius: 10px;
+                display: block;
+                margin: 10px auto;
+                box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            }
+            
+            .habitat {
+                display: none;
+                background-color: #f8f9fa;
+                padding: 10px;
+                border-radius: 8px;
+                margin-top: 10px;
+                text-align: center;
+            }
+            
+            .habitat img {
+                max-width: 100%;
+                border-radius: 10px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Animales Fuertes</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="terrestres.html">Terrestres</a></li>
+                        <li class="nav-item"><a class="nav-link" href="acuaticos.html">Acuaticos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <button class="btn btn-warning" onclick="printPage()">Imprimir Página</button>
+            </div>
+        </nav>
+        
+        <div class="container mt-4">
+            <h1>Animales Aereos Más Fuertes</h1>
+            <p style="color: black;">Aquí conocerás algunos de los animales aereos más poderosos del planeta.</p>
+            
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <strong>Águila Harpia:</strong>
+                    <p>El águila harpía es la rapaz más grande y poderosa de América. Con un peso que puede superar los 9 kg en las hembras y una envergadura de hasta 2,2 metros, esta ave es una verdadera reina de las selvas tropicales. Sus garras, que pueden medir más de 10 cm de largo, son más grandes que las de un oso pardo, lo que le permite capturar presas como monos, perezosos y coatíes con una precisión increíble.
+
+                        Este depredador se camufla entre el denso follaje de la selva, utilizando su plumaje gris y negro para pasar desapercibido. A diferencia de otras rapaces que cazan en campo abierto, la harpía acecha entre las ramas y ataca por sorpresa, utilizando su potente musculatura para levantar presas casi de su mismo peso.
+                        
+                        A pesar de su fortaleza, la harpía está en peligro debido a la deforestación y la caza furtiva. Su reproducción es lenta: solo pone un huevo cada dos o tres años, y ambos padres cuidan de la cría durante más de un año. Esta baja tasa de reproducción, sumada a la pérdida de su hábitat, ha reducido drásticamente sus poblaciones en los últimos años.
+                    </p>
+                    <img src="imagenes-aere/águila arpía.jpg" alt="Águila árpia" class="animal-img">
+                    <iframe src="https://www.youtube.com/embed/Kl6UxWGaXSE?si=3fG1Al8nZBFs_IGt" title="YouTube video player" allowfullscreen></iframe></p>
+                    <button class="btn btn-primary btn-habitat" onclick="mostrarHabitat('aguila')">Mostrar Hábitat</button>
+                    <div id="aguila" class="habitat">
+                        <img src="imagenes-aere/Aguila habitat.png" alt="Hábitat del águila árpia">
+                    </div>
+                </li>
+                
+                <li class="list-group-item">
+                    <strong>Búho Real:</strong>
+                    <p> El búho real es el rey de la noche en muchos ecosistemas de Europa y Asia. Con una envergadura de hasta 1,8 metros y un peso que puede llegar a los 4 kg, es una de las especies de búhos más grandes del mundo. Sus enormes ojos anaranjados le permiten ver en la oscuridad, mientras que sus plumas especiales reducen el sonido de su vuelo, lo que lo convierte en un cazador casi invisible.
+
+                        A diferencia de otras rapaces que cazan de día, el búho real espera hasta la noche para lanzarse sobre su presa. Se alimenta de una gran variedad de animales, desde roedores y conejos hasta otras aves e incluso zorros pequeños. Su técnica de caza es precisa: primero acecha desde un árbol o una roca y, cuando detecta el momento adecuado, se abalanza con un vuelo silencioso y letal.
+        
+                        Los búhos reales son territoriales y pueden vivir hasta 60 años en cautiverio. Se comunican con su distintivo "uu-huu" grave, que puede escucharse a varios kilómetros de distancia en la tranquilidad de la noche. Aunque han sabido adaptarse a distintos entornos, el uso de pesticidas y la destrucción de sus hábitats han afectado algunas de sus poblaciones en los últimos años.
+                    </p>
+                        
+                    <img src="imagenes-aere/buho-real.jpg" alt="buho-real" class="animal-img">
+                    <iframe src="https://www.youtube.com/embed/PK_MGYBx0y0?si=pmwiQ9Bya1YEStND" title="YouTube video player" allowfullscreen></iframe>
+                    <button class="btn btn-primary btn-habitat" onclick="mostrarHabitat('buho')">Mostrar Hábitat</button>
+
+                    <div id="buho" class="habitat">
+                        <img src="imagenes-aere/habitat buho.png" alt="Hábitat del buho-real">
+                    </div>
+                </li>
+                
+                <li class="list-group-item">
+                    <strong>Halcón Peregrino:</strong>
+                    <p> El halcón peregrino ostenta el récord de velocidad en el mundo animal. Cuando se lanza en picado para cazar, puede alcanzar hasta 389 km/h, lo que lo convierte en el depredador aéreo más veloz. Este halcón tiene alas largas y afiladas, diseñadas para la velocidad y la maniobrabilidad, y una vista excepcionalmente aguda, cinco veces mejor que la de los humanos.
+
+                        Se encuentra en casi todos los continentes, desde desiertos y montañas hasta ciudades, donde anida en rascacielos como si fueran acantilados. Su dieta está compuesta principalmente de aves, como palomas y gaviotas, a las que caza en pleno vuelo con una precisión asombrosa. Su técnica consiste en elevarse a gran altura y luego caer en picado con las alas plegadas hasta golpear a su presa con las garras, generalmente en la cabeza o el cuello, matándola al instante.
+        
+                        En los años 50 y 60, el halcón peregrino estuvo al borde de la extinción debido al uso de pesticidas como el DDT, que debilitaban sus huevos y reducían su población. Afortunadamente, tras la prohibición de estos químicos y los esfuerzos de conservación, la especie logró recuperarse y hoy en día es común en muchas ciudades, donde ayuda a controlar las poblaciones de palomas y otras aves urbanas.
+                    </p>
+
+                    <img src="imagenes-aere/halcon-peregrino.jpg" alt="Halcon peregrino" class="animal-img">
+                    <iframe src="https://www.youtube.com/embed/3Y74qhT9CIg?si=wqnnGpCmZbupsNOK"allowfullscreen></iframe>
+
+                    <button class="btn btn-primary btn-habitat" onclick="mostrarHabitat('halcon')">Mostrar Hábitat</button>
+                    <div id="halcon" class="habitat">
+                        <img src="imagenes-aere/habitat halcon.png" alt="Hábitat del halcon-peregrino">
+                    </div>
+                </li>
+            </ul>
+        </div>
+        
+        <script>
+            function mostrarHabitat(animal) {
+                const habitatDiv = document.getElementById(animal);
+                habitatDiv.style.display = (habitatDiv.style.display === "none" || habitatDiv.style.display === "") ? "block" : "none";
+            }
+        </script>
+        
+        <script src="lenguaje.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
+
+
+               
+                
