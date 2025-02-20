@@ -42,9 +42,9 @@ Ejercicios | Descripción
 
 Ejercicios CSS | Descripción
 ---------|----------
-[Ejercicio 1](Tema_2_CSS/Ejercicio_1.html) |
-[Ejercicio 2](Tema_2_CSS/Ejercicio_2.html) |
-[Ejercicio 3](Tema_2_CSS/Ejercicio_3.html) |
+[Ejercicio 1](Tema_2_CSS/Ejercicio_1.html) | Create a HTML document from the scratch with your CV. Create a CSS style sheet called MyStyle.CSS with the followings requirements.
+[Ejercicio 2](Tema_2_CSS/Ejercicio_2.html) | In this exercise you will have an opportunity to work through the challenges of laying out a web page using CSS. You will begin with the HTML file that will appear as the one on the left and add all required HTML and CSS to produce the layout on the right.
+[Ejercicio 3](Tema_2_CSS/Ejercicio_3.html) | Modifica la página de w3schools para que muestre la imagen repetida en el eje y. Además evita que haga scroll. Modifica también la posición de la imagen para que aparezca a la izquierda y el texto a la derecha.
 [Ejercicio 4](Tema_2_CSS/Ejercicio_4.html) |
 [Ejercicio 5](Tema_2_CSS/Ejercicio_5.html) |
 [Ejercicio 6](Tema_2_CSS/Ejercicio_6.html) |
