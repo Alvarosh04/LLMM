@@ -48,8 +48,7 @@ Ejercicios CSS | Descripción
 [Ejercicio 4](Tema_2_CSS/Ejercicio_4.html) | Modifica la página de w3schools para que muestre un menú horizontal. Modifica el color de todos los elementos para que tengan un color de texto blanco y fondo gris oscuro al pasar el ratón.
 [Ejercicio 5](Tema_2_CSS/Ejercicio_5.html) | Modify the code at W3Schools to get the following table.
 [Ejercicio 6](Tema_2_CSS/Ejercicio_6.html) | Create a table. Style your color table so that it looks like this:
-[Ejercicio 9](Tema_2_CSS/Ejercicio_9.html) | Posicionamiento absoluto
-Usa posicionamiento absoluto y resuelve los siguientes ejercicios
+[Ejercicio 9](Tema_2_CSS/Ejercicio_9.html) | Posicionamiento absoluto. Usa posicionamiento absoluto y resuelve los siguientes ejercicios
 [Ejercicio 10](Tema_2_CSS/Ejercicio_10.html) | Usa flexbox y resuelve los siguientes 3 primeros ejercicios
 [Ejercicio 11](Tema_2_CSS/Ejercicio_11.html) | Crea una página que incluya una barra de navegación con tres opciones y una galería de imágenes como la del ejemplo de w2schools. Haz uso de mediaquery:
 [Ejercicio 12](Tema_2_CSS/Ejercicio_12.html) | Crea una web adaptativa (responsibe) como la mostrada en w3school. La web debe contener una cabecera, barra de navegación, diseño a dos columnas adaptable y un pie de página. Haz uso de mediaquery. Puedes inventar el contenido:
