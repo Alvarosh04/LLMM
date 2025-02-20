@@ -44,15 +44,15 @@ Ejercicios CSS | Descripción
 ---------|----------
 [Ejercicio 1](Tema_2_CSS/Ejercicio_1.html) |
 [Ejercicio 2](Tema_2_CSS/Ejercicio_2.html) |
-[Ejercicio 3](Tema_2_CSS/Ejercicio_1.html) |
-[Ejercicio 4](Tema_2_CSS/Ejercicio_1.html) |
-[Ejercicio 5](Tema_2_CSS/Ejercicio_1.html) |
-[Ejercicio 6](Tema_2_CSS/Ejercicio_1.html) |
-[Ejercicio 7](Tema_2_CSS/Ejercicio_1.html) |
-[Ejercicio 9](Tema_2_CSS/Ejercicio_1.html) |
-[Ejercicio 10](Tema_2_CSS/Ejercicio_1.html) |
-[Ejercicio 11](Tema_2_CSS/Ejercicio_1.html) |
-[Ejercicio 1](Tema_2_CSS/Ejercicio_1.html) |
+[Ejercicio 3](Tema_2_CSS/Ejercicio_3.html) |
+[Ejercicio 4](Tema_2_CSS/Ejercicio_4.html) |
+[Ejercicio 5](Tema_2_CSS/Ejercicio_5.html) |
+[Ejercicio 6](Tema_2_CSS/Ejercicio_6.html) |
+[Ejercicio 9](Tema_2_CSS/Ejercicio_9.html) |
+[Ejercicio 10](Tema_2_CSS/Ejercicio_10.html) |
+[Ejercicio 11](Tema_2_CSS/Ejercicio_11.html) |
+[Ejercicio 12](Tema_2_CSS/Ejercicio_12.html) |
+
 
 
 
