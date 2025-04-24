@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Elementos con JavaScript</title>
+    <script>
+        function agregarImagen() {
+    
+            const contenedor = document.getElementById("contenedor");
+
+            const imagen = document.createElement("img");
+
+            imagen.src = "https://via.placeholder.com/300"; // URL de la imagen
+            imagen.alt = "Imagen agregada dinámicamente";
+            imagen.style.width = "300px";
+            imagen.style.height = "200px";
+
+            contenedor.appendChild(imagen);
+        }
+    </script>
+</head>
+<body>
+    <h1>Crear Elementos con JavaScript</h1>
+    <button onclick="agregarImagen()">Agregar Imagen</button>
+    <div id="contenedor" style="margin-top: 20px; padding: 10px; border: 1px solid #ccc; background-color: #f9f9f9;">
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+    <script>
+        function mostrarParrafos() {
+           
+            const parrafos = document.getElementsByTagName("p");
+  
+            let contenido = "";
+  
+            for (let i = 0; i < parrafos.length; i++) {
+                contenido += parrafos[i].innerHTML + "<br>";
+            }
+
+            document.getElementById("resultado").innerHTML = contenido;
+        }
+    </script>
+</head>
+<body>
+    <h1>Acceso al DOM</h1>
+    <p>Este es el primer párrafo.</p>
+    <p>Este es el segundo párrafo.</p>
+    <p>Este es el tercer párrafo.</p>
+    <p>Este es el cuarto párrafo.</p>
+
+    <button onclick="mostrarParrafos()">Mostrar Contenido de los Párrafos</button>
+
+    <div id="resultado" style="margin-top: 20px; padding: 10px; border: 1px solid #ccc; background-color: #f9f9f9;">
+</body>
+</html>

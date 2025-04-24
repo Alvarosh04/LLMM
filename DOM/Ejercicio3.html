@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eliminar Elementos de una Lista</title>
+    <script>
+        function borrarElemento() {
+            const lista = document.getElementById("miLista");
+
+            if (lista.hasChildNodes()) {
+
+                lista.removeChild(lista.firstElementChild);
+            } else {
+                alert("No hay más elementos para eliminar.");
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Eliminar Elementos de una Lista</h1>
+    <ul id="miLista">
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul>
+    <button onclick="borrarElemento()">Borrar Primer Elemento</button>
+</body>
+</html>
