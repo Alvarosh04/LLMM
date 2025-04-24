@@ -58,35 +58,35 @@ Ejercicios CSS | Descripción
 
 Ejercicios JavaScript | Descripción
 ---------|----------
-[Ejercicio 1](JavaScript_y_HTMLDOM/ejercicio1.html) | 
-[Ejercicio 2](JavaScript_y_HTMLDOM/Ejercicio2.html) | 
-[Ejercicio 3](JavaScript_y_HTMLDOM/Ejercicio3.html) |
-[Ejercicio 4](JavaScript_y_HTMLDOM/Ejercicio4.html) | 
-[Ejercicio 5](JavaScript_y_HTMLDOM/Ejercicio5.html) | 
-[Ejercicio 6](JavaScript_y_HTMLDOM/Ejercicio6.html) |
-[Ejercicio 7](JavaScript_y_HTMLDOM/Ejercicio7.html) |
-[Ejercicio 8](JavaScript_y_HTMLDOM/Ejercicio8/Ejercicio8.html) |
-[Ejercicio 9](JavaScript_y_HTMLDOM/Ejercicio9.html) | 
-[Ejercicio 10. Apartado A](JavaScript_y_HTMLDOM/Ejercicio10/Apartado_A.html) | 
-[Ejercicio 10. Apartado B](JavaScript_y_HTMLDOM/Ejercicio10/Apartado_B.html) | 
-[Ejercicio 10. Apartado C](JavaScript_y_HTMLDOM/Ejercicio10/Apartado_C.html) | 
-[Ejercicio 10. Apartado D](JavaScript_y_HTMLDOM/Ejercicio10/Apartado_D.html) | 
-[Ejercicio 10. Apartado E](JavaScript_y_HTMLDOM/Ejercicio10/Apartado_E.html) | 
-[Ejercicio 10. Apartado F](JavaScript_y_HTMLDOM/Ejercicio10/Apartado_F.html) | 
-[Ejercicio 10. Apartado G](JavaScript_y_HTMLDOM/Ejercicio10/Apartado_G.html) | 
-[Ejercicio 10. Apartado H](JavaScript_y_HTMLDOM/Ejercicio10/Apartado_H.html) | 
-[Ejercicio 10. Apartado I](JavaScript_y_HTMLDOM/Ejercicio10/Apartado_I.html) | 
-[Ejercicio 10. Apartado J](JavaScript_y_HTMLDOM/Ejercicio10/Apartado_J.html) | 
+[Ejercicio 1](JavaScript_y_HTMLDOM/ejercicio1.html) | Modify the code for:Add a button (and a function) to clear the p demo. Place the script in an external file called MyJS.js
+[Ejercicio 2](JavaScript_y_HTMLDOM/Ejercicio2.html) | Modify the code for:Add a button (and a function) which writes into the p demo when clicked. Place the script in an external file called js02.js.
+[Ejercicio 3](JavaScript_y_HTMLDOM/Ejercicio3.html) | In this file you will find images about cars. In this other file you will find images about Spiderman. You will write a web page where you could display different images of cars or Spiderman by clicking on buttons (1 for each image). 
+[Ejercicio 4](JavaScript_y_HTMLDOM/Ejercicio4.html) | Create a HTML document which will declare a variable, will assign a value from an input and finally display it using the innerHTML property. Do it several times using numbers and text. 
+[Ejercicio 5](JavaScript_y_HTMLDOM/Ejercicio5.html) | Create a HTML document from scratch with three groups of buttons. Each group will be focused on three differents issues:
+a. Changing the style of a paragraph: choosing between three different font styles.
+b. Changing the attribute src from the img tag. 
+c. Showing three different messages in a <div> tag.
+[Ejercicio 6](JavaScript_y_HTMLDOM/Ejercicio6.html) | Create a HTML document from scratch similar to the following: https://js-beginners.github.io/random-quotes-project/
+[Ejercicio 7](JavaScript_y_HTMLDOM/Ejercicio7.html) | Create a HTML document from scratch similar to the following: https://js-beginners.github.io/background-image-slider-project/
+[Ejercicio 8](JavaScript_y_HTMLDOM/Ejercicio8/Ejercicio8.html) | Calculadora
+[Ejercicio 9](JavaScript_y_HTMLDOM/Ejercicio9.html) | Convert from Celsius to Fahrenheit.
+[Ejercicio 10. Apartado A](JavaScript_y_HTMLDOM/Ejercicio10/Apartado_A.html) | Define a function max() that takes two numbers as arguments and returns the largest of them. Use the if-then-else construct available in Javascript.
+[Ejercicio 10. Apartado B](JavaScript_y_HTMLDOM/Ejercicio10/Apartado_B.html) | Define a function maxOfThree() that takes three numbers as arguments and returns the largest of them.
+[Ejercicio 10. Apartado C](JavaScript_y_HTMLDOM/Ejercicio10/Apartado_C.html) | Write a function that takes a character (i.e. a string of length 1) and returns true if it is a vowel, false otherwise.
+[Ejercicio 10. Apartado D](JavaScript_y_HTMLDOM/Ejercicio10/Apartado_D.html) | Rövarspråket is a Swedish children-slang where by tongue-twisted what you say like this you can basically talk to someone else who understands the "codec" with someone who doesn't unable to comprehend. Write a function translate() that will translate a text into "rövarspråket". That is, double every consonant and place an occurrence of "o" in between. For example, translate("this is fun") should return the string "tothohisos isos fofunon". Note: You could visit  for an example.
+[Ejercicio 10. Apartado E](JavaScript_y_HTMLDOM/Ejercicio10/Apartado_E.html) | Define a function sum() and a function multiply() that sums and multiplies (respectively) all the numbers in an array of numbers. For example, sum([1,2,3,4]) should return 10, and multiply([1,2,3,4]) should return 24.
+[Ejercicio 10. Apartado F](JavaScript_y_HTMLDOM/Ejercicio10/Apartado_F.html) | Define a function reverse() that computes the reversal of a string. For example, reverse("jag testar") should return the string "ratset gaj".
+[Ejercicio 10. Apartado G](JavaScript_y_HTMLDOM/Ejercicio10/Apartado_G.html) | Write a function to sort a list of words (an array) in alphabetical order 
+[Ejercicio 10. Apartado H](JavaScript_y_HTMLDOM/Ejercicio10/Apartado_H.html) | Write a function findLongestWord() that takes an array of words and returns the length of the longest one.
+[Ejercicio 10. Apartado I](JavaScript_y_HTMLDOM/Ejercicio10/Apartado_I.html) | Write a function filterLongWords() that takes an array of words and an integer i and returns the array of words that are longer than i.
+[Ejercicio 10. Apartado J](JavaScript_y_HTMLDOM/Ejercicio10/Apartado_J.html) | Write a function charFreq() that takes a string and builds a frequency listing of the characters contained in it. Represent the frequency listing as a Javascript object. Try it with something like charFreq("abbabcbdbabdbdbabababcbcbab").
 
 Ejercicios DOOM | Descripción
 ---------|----------
-[Ejercicio 1](JavaScript_y_HTMLDOM/ejercicio1.html) | 
-[Ejercicio 2](JavaScript_y_HTMLDOM/Ejercicio2.html) | 
-[Ejercicio 3](JavaScript_y_HTMLDOM/Ejercicio3.html) |
-[Ejercicio 4](JavaScript_y_HTMLDOM/Ejercicio4.html) | 
-[Ejercicio 5](JavaScript_y_HTMLDOM/Ejercicio5.html) | 
-[Ejercicio 6](JavaScript_y_HTMLDOM/Ejercicio6.html) |
-[Ejercicio 7](JavaScript_y_HTMLDOM/Ejercicio7.html) |
+[Ejercicio 1](DOM/Ejercicio1.html) | Crea una página web que contenga varios párrafos. Mediante Javascript accede al DOM y muestra el contenido de dichos párrafos en un div
+[Ejercicio 2](DOM/Ejercicio2.html) | Crea una página y mediante Javascript agrega imagen a un div
+[Ejercicio 3](DOM/Ejercicio3.html) | Crea una página con una lista y borra los elementos de dicha lista tal como se muestra en el siguiente ejemplo: https://www.w3schools.com/jsref/met_node_removechild.asp
+[Ejercicio 4](DOM/Ejercicio4.html) | Usando la consola del navegador muestra: título, imágenes y los enlaces de una página de tu elección
 
 
 
