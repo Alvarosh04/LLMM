@@ -63,19 +63,30 @@ Ejercicios JavaScript | Descripción
 [Ejercicio 3](JavaScript_y_HTMLDOM/Ejercicio3.html) |
 [Ejercicio 4](JavaScript_y_HTMLDOM/Ejercicio4.html) | 
 [Ejercicio 5](JavaScript_y_HTMLDOM/Ejercicio5.html) | 
-[Ejercicio 6](JavaScript_y_HTMLDOM/Ejercicio6.html) | 
-[Ejercicio 9](JavaScript_y_HTMLDOM/Ejercicio7.html) | 
+[Ejercicio 6](JavaScript_y_HTMLDOM/Ejercicio6.html) |
+[Ejercicio 7](JavaScript_y_HTMLDOM/Ejercicio7.html) |
+[Ejercicio 8](JavaScript_y_HTMLDOM/Ejercicio8/Ejercicio8.html) |
+[Ejercicio 9](JavaScript_y_HTMLDOM/Ejercicio9.html) | 
 [Ejercicio 10. Apartado A](JavaScript_y_HTMLDOM/Ejercicio10/Apartado_A.html) | 
-[Ejercicio 10. Apartado A](JavaScript_y_HTMLDOM/Ejercicio10/Apartado_B.html) | 
-[Ejercicio 10. Apartado A](JavaScript_y_HTMLDOM/Ejercicio10/Apartado_C.html) | 
-[Ejercicio 10. Apartado A](JavaScript_y_HTMLDOM/Ejercicio10/Apartado_D.html) | 
-[Ejercicio 10. Apartado A](JavaScript_y_HTMLDOM/Ejercicio10/Apartado_E.html) | 
-[Ejercicio 10. Apartado A](JavaScript_y_HTMLDOM/Ejercicio10/Apartado_F.html) | 
-[Ejercicio 10. Apartado A](JavaScript_y_HTMLDOM/Ejercicio10/Apartado_G.html) | 
-[Ejercicio 10. Apartado A](JavaScript_y_HTMLDOM/Ejercicio10/Apartado_H.html) | 
-[Ejercicio 10. Apartado A](JavaScript_y_HTMLDOM/Ejercicio10/Apartado_I.html) | 
-[Ejercicio 10. Apartado A](JavaScript_y_HTMLDOM/Ejercicio10/Apartado_J.html) | 
+[Ejercicio 10. Apartado B](JavaScript_y_HTMLDOM/Ejercicio10/Apartado_B.html) | 
+[Ejercicio 10. Apartado C](JavaScript_y_HTMLDOM/Ejercicio10/Apartado_C.html) | 
+[Ejercicio 10. Apartado D](JavaScript_y_HTMLDOM/Ejercicio10/Apartado_D.html) | 
+[Ejercicio 10. Apartado E](JavaScript_y_HTMLDOM/Ejercicio10/Apartado_E.html) | 
+[Ejercicio 10. Apartado F](JavaScript_y_HTMLDOM/Ejercicio10/Apartado_F.html) | 
+[Ejercicio 10. Apartado G](JavaScript_y_HTMLDOM/Ejercicio10/Apartado_G.html) | 
+[Ejercicio 10. Apartado H](JavaScript_y_HTMLDOM/Ejercicio10/Apartado_H.html) | 
+[Ejercicio 10. Apartado I](JavaScript_y_HTMLDOM/Ejercicio10/Apartado_I.html) | 
+[Ejercicio 10. Apartado J](JavaScript_y_HTMLDOM/Ejercicio10/Apartado_J.html) | 
 
+Ejercicios DOOM | Descripción
+---------|----------
+[Ejercicio 1](JavaScript_y_HTMLDOM/ejercicio1.html) | 
+[Ejercicio 2](JavaScript_y_HTMLDOM/Ejercicio2.html) | 
+[Ejercicio 3](JavaScript_y_HTMLDOM/Ejercicio3.html) |
+[Ejercicio 4](JavaScript_y_HTMLDOM/Ejercicio4.html) | 
+[Ejercicio 5](JavaScript_y_HTMLDOM/Ejercicio5.html) | 
+[Ejercicio 6](JavaScript_y_HTMLDOM/Ejercicio6.html) |
+[Ejercicio 7](JavaScript_y_HTMLDOM/Ejercicio7.html) |
 
 
 
