@@ -62,10 +62,7 @@ Ejercicios JavaScript | Descripción
 [Ejercicio 2](JavaScript_y_HTMLDOM/Ejercicio2.html) | Modify the code for:Add a button (and a function) which writes into the p demo when clicked. Place the script in an external file called js02.js.
 [Ejercicio 3](JavaScript_y_HTMLDOM/Ejercicio3.html) | In this file you will find images about cars. In this other file you will find images about Spiderman. You will write a web page where you could display different images of cars or Spiderman by clicking on buttons (1 for each image). 
 [Ejercicio 4](JavaScript_y_HTMLDOM/Ejercicio4.html) | Create a HTML document which will declare a variable, will assign a value from an input and finally display it using the innerHTML property. Do it several times using numbers and text. 
-[Ejercicio 5](JavaScript_y_HTMLDOM/Ejercicio5.html) | Create a HTML document from scratch with three groups of buttons. Each group will be focused on three differents issues: 
-  a. Changing the style of a paragraph: choosing between three different font styles. 
-  b. Changing the attribute src from the img tag. 
-  c. Showing three different messages in a <div> tag.
+[Ejercicio 5](JavaScript_y_HTMLDOM/Ejercicio5.html) | Create a HTML document from scratch with three groups of buttons. Each group will be focused on three differents issues:                                                                                                                                                               a. Changing the style of a paragraph: choosing between three different font styles. b. Changing the attribute src from the img tag. c. Showing three different messages in a <div> tag.
 [Ejercicio 6](JavaScript_y_HTMLDOM/Ejercicio6.html) | Create a HTML document from scratch similar to the following: https://js-beginners.github.io/random-quotes-project/
 [Ejercicio 7](JavaScript_y_HTMLDOM/Ejercicio7.html) | Create a HTML document from scratch similar to the following: https://js-beginners.github.io/background-image-slider-project/
 [Ejercicio 8](JavaScript_y_HTMLDOM/Ejercicio8/Ejercicio8.html) | Calculadora
