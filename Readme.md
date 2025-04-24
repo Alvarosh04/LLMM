@@ -56,18 +56,26 @@ Ejercicios CSS | Descripción
 
 ## Trimestre 3
 
-Ejercicios JavaScript y HTML DOM  | Descripción
+Ejercicios JavaScript | Descripción
 ---------|----------
-[Ejercicio 1](Tema_2_CSS/Ejercicio_1.html) | Create a HTML document from the scratch with your CV. Create a CSS style sheet called MyStyle.CSS with the followings requirements.
-[Ejercicio 2](Tema_2_CSS/Ejercicio_2.html) | In this exercise you will have an opportunity to work through the challenges of laying out a web page using CSS. You will begin with the HTML file that will appear as the one on the left and add all required HTML and CSS to produce the layout on the right.
-[Ejercicio 3](Tema_2_CSS/Ejercicio_3.html) | Modifica la página de w3schools para que muestre la imagen repetida en el eje y. Además evita que haga scroll. Modifica también la posición de la imagen para que aparezca a la izquierda y el texto a la derecha.
-[Ejercicio 4](Tema_2_CSS/Ejercicio_4.html) | Modifica la página de w3schools para que muestre un menú horizontal. Modifica el color de todos los elementos para que tengan un color de texto blanco y fondo gris oscuro al pasar el ratón.
-[Ejercicio 5](Tema_2_CSS/Ejercicio_5.html) | Modify the code at W3Schools to get the following table.
-[Ejercicio 6](Tema_2_CSS/Ejercicio_6.html) | Create a table. Style your color table so that it looks like this:
-[Ejercicio 9](Tema_2_CSS/Ejercicio_9.html) | Posicionamiento absoluto. Usa posicionamiento absoluto y resuelve los siguientes ejercicios
-[Ejercicio 10](Tema_2_CSS/Ejercicio_10.html) | Usa flexbox y resuelve los siguientes 3 primeros ejercicios
-[Ejercicio 11](Tema_2_CSS/Ejercicio_11.html) | Crea una página que incluya una barra de navegación con tres opciones y una galería de imágenes como la del ejemplo de w2schools. Haz uso de mediaquery:
-[Ejercicio 12](Tema_2_CSS/Ejercicio_12.html) | Crea una web adaptativa (responsibe) como la mostrada en w3school. La web debe contener una cabecera, barra de navegación, diseño a dos columnas adaptable y un pie de página. Haz uso de mediaquery. Puedes inventar el contenido:
+[Ejercicio 1](JavaScript_y_HTMLDOM/ejercicio1.html) | 
+[Ejercicio 2](JavaScript_y_HTMLDOM/Ejercicio2.html) | 
+[Ejercicio 3](JavaScript_y_HTMLDOM/Ejercicio3.html) |
+[Ejercicio 4](JavaScript_y_HTMLDOM/Ejercicio4.html) | 
+[Ejercicio 5](JavaScript_y_HTMLDOM/Ejercicio5.html) | 
+[Ejercicio 6](JavaScript_y_HTMLDOM/Ejercicio6.html) | 
+[Ejercicio 9](JavaScript_y_HTMLDOM/Ejercicio7.html) | 
+[Ejercicio 10. Apartado A](JavaScript_y_HTMLDOM/Ejercicio10/Apartado_A.html) | 
+[Ejercicio 10. Apartado A](JavaScript_y_HTMLDOM/Ejercicio10/Apartado_B.html) | 
+[Ejercicio 10. Apartado A](JavaScript_y_HTMLDOM/Ejercicio10/Apartado_C.html) | 
+[Ejercicio 10. Apartado A](JavaScript_y_HTMLDOM/Ejercicio10/Apartado_D.html) | 
+[Ejercicio 10. Apartado A](JavaScript_y_HTMLDOM/Ejercicio10/Apartado_E.html) | 
+[Ejercicio 10. Apartado A](JavaScript_y_HTMLDOM/Ejercicio10/Apartado_F.html) | 
+[Ejercicio 10. Apartado A](JavaScript_y_HTMLDOM/Ejercicio10/Apartado_G.html) | 
+[Ejercicio 10. Apartado A](JavaScript_y_HTMLDOM/Ejercicio10/Apartado_H.html) | 
+[Ejercicio 10. Apartado A](JavaScript_y_HTMLDOM/Ejercicio10/Apartado_I.html) | 
+[Ejercicio 10. Apartado A](JavaScript_y_HTMLDOM/Ejercicio10/Apartado_J.html) | 
+
 
 
 
