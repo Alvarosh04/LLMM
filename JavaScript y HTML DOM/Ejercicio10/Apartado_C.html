@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apartado C: ¿Es una vocal?</title>
+    <script>
+        function isVowel() {
+            const char = document.getElementById("char").value.toLowerCase();
+            if (char.length !== 1) {
+                document.getElementById("resultVowel").innerHTML = "Por favor, ingresa un solo carácter.";
+                return;
+            }
+            const vowels = "aeiou";
+            const result = vowels.includes(char);
+            document.getElementById("resultVowel").innerHTML = result ? "Es una vocal" : "No es una vocal";
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <h2>¿Es una vocal?</h2>
+        <input type="text" id="char" maxlength="1" placeholder="Ingresa un carácter">
+        <button onclick="isVowel()">Verificar</button>
+        <p id="resultVowel"></p>
+    </div>
+</body>
+</html>

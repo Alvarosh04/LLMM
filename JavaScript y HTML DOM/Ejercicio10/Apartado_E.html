@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apartado E: Suma y Multiplicación de un Array</title>
+    <script>
+        function sum() {
+            const array = document.getElementById("arrayInput").value.split(",").map(Number);
+            const result = array.reduce((acc, num) => acc + num, 0);
+            document.getElementById("resultSum").innerHTML = `Suma: ${result}`;
+        }
+
+        function multiply() {
+            const array = document.getElementById("arrayInput").value.split(",").map(Number);
+            const result = array.reduce((acc, num) => acc * num, 1);
+            document.getElementById("resultMultiply").innerHTML = `Multiplicación: ${result}`;
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <h2>Suma y Multiplicación de un Array</h2>
+        <input type="text" id="arrayInput" placeholder="Ejemplo: 1,2,3,4">
+        <button onclick="sum()">Sumar</button>
+        <button onclick="multiply()">Multiplicar</button>
+        <p id="resultSum"></p>
+        <p id="resultMultiply"></p>
+    </div>
+</body>
+</html>

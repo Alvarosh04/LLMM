@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apartado D: Rövarspråket</title>
+    <script>
+        function translate() {
+            const text = document.getElementById("textToTranslate").value;
+            const translated = text.replace(/[^aeiou\s]/gi, (c) => c + "o" + c);
+            document.getElementById("resultTranslate").innerHTML = translated;
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <h2>Rövarspråket</h2>
+        <input type="text" id="textToTranslate" placeholder="Texto a traducir">
+        <button onclick="translate()">Traducir</button>
+        <p id="resultTranslate"></p>
+    </div>
+</body>
+</html>

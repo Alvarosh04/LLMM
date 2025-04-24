@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3: Imágenes y Estilos</title>
+    <link id="stylesheet" rel="stylesheet" href="style1.css">
+    <script>
+        function cambiaImagenCoche(nombre) {
+            document.getElementById('imagenCoche').src = 'Imagenes_coches/' + nombre; // Ruta relativa corregida
+        }
+
+        function cambiaImagenSpiderman(nombre) {
+            document.getElementById('imagenSpiderman').src = 'Imagenes_Spiderman/' + nombre; // Ruta relativa corregida
+        }
+
+        function cambiaEstilo(estilo) {
+            document.getElementById('stylesheet').href = estilo;
+        }
+    </script>
+</head>
+<body>
+    <h1>Galería de Imágenes</h1>
+
+    <div>
+        <h2>Imágenes de Coches</h2>
+        <img id="imagenCoche" src="Imagenes_coches/coche1.jpg" style="height:300px"><br>
+        <select onchange="cambiaImagenCoche(this.value)">
+            <option value="coche1.jpg">Coche 1</option>
+            <option value="coche2.jpg">Coche 2</option>
+            <option value="coche3.jpg">Coche 3</option>
+            <option value="coche4.jpg">Coche 4</option>
+            <option value="coche5.jpg">Coche 5</option>
+            <option value="coche6.jpg">Coche 6</option>
+        </select>
+    </div>
+
+    <div>
+        <h2>Imágenes de Spiderman</h2>
+        <img id="imagenSpiderman" src="Imagenes_Spiderman/spiderman1.gif" style="height:300px"><br>
+        <select onchange="cambiaImagenSpiderman(this.value)">
+            <option value="spiderman1.gif">Spiderman 1</option>
+            <option value="spiderman2.jpg">Spiderman 2</option>
+            <option value="spiderman3.jpg">Spiderman 3</option>
+            <option value="Spiderman4.jpg">Spiderman 4</option>
+            <option value="spiderman5.jpg">Spiderman 5</option>
+        </select>
+    </div>
+
+    <div>
+        <h2>Cambiar Estilo</h2>
+        <button onclick="cambiaEstilo('style1.css')">Estilo 1</button>
+        <button onclick="cambiaEstilo('style2.css')">Estilo 2</button>
+    </div>
+</body>
+</html>

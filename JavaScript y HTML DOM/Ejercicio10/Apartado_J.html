@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apartado J: Frecuencia de Caracteres</title>
+    <script>
+        function charFreq() {
+            const str = document.getElementById("stringInput").value;
+            const frequency = {};
+
+            for (const char of str) {
+                frequency[char] = (frequency[char] || 0) + 1;
+            }
+
+            document.getElementById("resultCharFreq").innerHTML = 
+                `Frecuencia de caracteres: ${JSON.stringify(frequency)}`;
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <h2>Frecuencia de Caracteres</h2>
+        <input type="text" id="stringInput" placeholder="Ingresa una cadena">
+        <button onclick="charFreq()">Analizar</button>
+        <p id="resultCharFreq"></p>
+    </div>
+</body>
+</html>

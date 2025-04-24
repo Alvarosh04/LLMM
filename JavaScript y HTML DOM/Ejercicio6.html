@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 6: Random Quotes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        .quote-box {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+        }
+        .quote {
+            font-size: 24px;
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+        .author {
+            font-size: 18px;
+            color: #555;
+        }
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+    <script>
+        const quotes = [
+            { quote: "La vida es lo que pasa mientras estás ocupado haciendo otros planes.", author: "John Lennon" },
+            { quote: "El éxito es ir de fracaso en fracaso sin perder el entusiasmo.", author: "Winston Churchill" },
+            { quote: "No cuentes los días, haz que los días cuenten.", author: "Muhammad Ali" },
+            { quote: "La mejor manera de predecir el futuro es crearlo.", author: "Peter Drucker" },
+            { quote: "La felicidad no es algo hecho. Proviene de tus propias acciones.", author: "Dalai Lama" },
+            { quote: "El único límite para nuestra realización de mañana serán nuestras dudas de hoy.", author: "Franklin D. Roosevelt" },
+            { quote: "Cree que puedes y estarás a mitad de camino.", author: "Theodore Roosevelt" },
+            { quote: "Las cosas son un 10% lo que pasa y un 90% como te lo tomas.", author: "Stephen Covey"}
+        ];
+
+        function generarCitaAleatoria() {
+            const randomIndex = Math.floor(Math.random() * quotes.length);
+            const randomQuote = quotes[randomIndex];
+            document.getElementById("quote").innerHTML = `"${randomQuote.quote}"`;
+            document.getElementById("author").innerHTML = `- ${randomQuote.author}`;
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="quote-box">
+            <p id="quote" class="quote">"Haz clic en el botón para generar una cita."</p>
+            <p id="author" class="author">- Autor desconocido</p>
+        </div>
+        <button onclick="generarCitaAleatoria()">Generar Cita</button>
+    </div>
+</body>
+</html>
