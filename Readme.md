@@ -85,6 +85,14 @@ Ejercicios DOOM | Descripción
 [Ejercicio 3](DOM/Ejercicio3.html) | Crea una página con una lista y borra los elementos de dicha lista tal como se muestra en el siguiente ejemplo: https://www.w3schools.com/jsref/met_node_removechild.asp
 [Ejercicio 4](DOM/Ejercicio4.html) | Usando la consola del navegador muestra: título, imágenes y los enlaces de una página de tu elección
 
-
+Ejercicios Opcionales (Advanced apps with JavaScript)  | Descripción
+---------|----------
+[Ejercicio 1]() | 
+[Ejercicio 2]() | 
+[Ejercicio 3]() | 
+[Ejercicio 4]() |
+[Ejercicio 5]() |
+[Ejercicio 6]() | 
+[Ejercicio 7]() | 
 
 
