@@ -57,8 +57,9 @@ Ejercicios CSS | Descripción
 ## Trimestre 3
 ProyectoXML  | Descripción
 ---------|----------
-[Pagina web](JavaScript_y_HTMLDOM/ejercicio1.html) | Estos son los codigos
+[Pagina web](pagina_web_3) | Estos son los codigos
 [Pagina web] | Codigo de la pagina web proyectoxml1.netlify.app
+
 Ejercicios JavaScript | Descripción
 ---------|----------
 [Ejercicio 1](JavaScript_y_HTMLDOM/ejercicio1.html) | Modify the code for:Add a button (and a function) to clear the p demo. Place the script in an external file called MyJS.js
