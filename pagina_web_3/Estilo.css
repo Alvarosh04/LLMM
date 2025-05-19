@@ -1,0 +1,101 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url('Fotos_one_piece/One-Piece-Cast.avif');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  color: white;
+  text-align: center;
+}
+
+.container {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 30px;
+  margin: 50px auto;
+  max-width: 800px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+h1, h2 {
+  color: gold;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 1rem;
+  background-color: #ffcc00;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff9900;
+}
+
+#reloj {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+#curiosidad {
+  margin-top: 20px;
+  font-style: italic;
+  font-size: 1rem;
+  color: #add8e6;
+}
+
+#resultado {
+  margin-top: 20px;
+  font-size: 1.1rem;
+  color: #add8e6;
+}
+
+/* Estilos de bienvenida */
+#bienvenida {
+  margin-top: 30px;
+}
+
+#btnComenzar {
+  padding: 12px 25px;
+  font-size: 1.1rem;
+  background-color: #ffcc00;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+#btnComenzar:hover {
+  background-color: #ff9900;
+}
+
+.fade {
+  opacity: 0;
+  transition: opacity 0.8s ease;
+}
+
+.fade.visible {
+  opacity: 1;
+}
+
+@media (max-width: 600px) {
+  .container {
+    margin: 20px;
+    padding: 15px;
+  }
+
+  button {
+    width: 100%;
+    font-size: 1.1rem;
+    margin: 8px 0;
+  }
+
+  h1, h2 {
+    font-size: 1.5rem;
+  }
+}
+
