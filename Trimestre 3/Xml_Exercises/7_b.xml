@@ -1,5 +1,0 @@
-<!-- Este es un ejemplo que no vale -->
-<persona nombre="Ana" nombre="Pedro" />
-
-<!-- Este es un ejemplo que vale -->
-<persona nombre="Ana" edad="30" />

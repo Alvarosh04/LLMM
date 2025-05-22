@@ -1,2 +1,0 @@
-<!--Los nombres de elementos en XML no pueden tener espacios. Así que lo correcto sería:-->
-<mensaje-inicial>¡Este es nuestro primer elemento!</mensaje-inicial>
