@@ -100,15 +100,14 @@ Unidad 4 (XML+XML-DOM+AJAX+JASON+RSS)  | Descripción
 [Ejercicio 5 A XML](Trimestre_3/Xml_Exercises/5_a.xml) | XML file, CD information
 [Ejercicio 5 B XML](Trimestre_3/Xml_Exercises/5_b.xml) | XML file, CD information
 [Ejercicio 6 XML](Trimestre_3/Xml_Exercises/6.xml) | Create a letter structure in XML, including sender and receiver information, date, text body and a signature. Make a document instance with contents. Save your file as Ex6.xml.
-
 [Ejercicio 7 A XML](Trimestre_3/Xml_Exercises/7_a.xml) | What do comments look like in XML?
 [Ejercicio 7 B XML](Trimestre_3/Xml_Exercises/7_b.xml) | Can an attribute be repeated in the same element?
 [Ejercicio 7 C XML](Trimestre_3/Xml_Exercises/7_c.xml) | Where is it stated that the element names in opening and closing tags must match?
-
+[XML DOM] | Ejercicios de XML DOM
 [Ejercicio 1 XML DOM](Trimestre_3/XML_DOM_Exercises/1.html) | Escribe el código necesario para obtener los siguientes datos:
 [Ejercicio 2 XML DOM](Trimestre_3/XML_DOM_Exercises/2.html) | Escribe el código necesario para obtener los siguientes datos
 [Ejercicio 3 XML DOM](Trimestre_3/XML_DOM_Exercises/3.html) | Escribe el código necesario para obtener los siguientes datos:
-
+[AJAX]) | Ejercicios de AJAX
 [Ejercicio 1 AJAX](Trimestre_3/AJAX_Exercises/1.html) | Using the cd_catalog.xml file and the following code:
 [Ejercicio 2 AJAX](Trimestre_3/AJAX_Exercises/2.html) | Escribe un programa que muestre información meteorológica de una localidad de Huelva (o cualquier otra provincia de tu elección): temperatura máxima y mínima, estado del cielo por tramo horario, dirección y velocidad del viento y humedad relativa).
 [Ejercicio 3 AJAX](Trimestre_3/AJAX_Exercises/3.html) | En este ejercicio usaremos el archivo “json_demo_array” y el editor de w3schools. Responde a los siguientes apartados.
@@ -121,7 +120,7 @@ Unidad 4 (XML+XML-DOM+AJAX+JASON+RSS)  | Descripción
 [Ejercicio 4 F AJAX](Trimestre_3/AJAX_Exercises/4_f.js) | Muestra todos los datos en un párrafo
 [Ejercicio 4 G AJAX](Trimestre_3/AJAX_Exercises/4_g.js) | Muestra los datos usando una tabla.
 [Ejercicio 5 AJAX](Trimestre_3/AJAX_Exercises/5.html) | En este ejercicio usaremos un servicio de datos de la NASA a través de una API.
-
+[RSS] | Ejercicios de RSS
 [Ejercicio 1 RSS](Trimestre_3/RSS/1.html) | Crea una página web que lea un archivo RSS mediante AJAX. Elige un archivo de RSS de tu  elección y muestra apropiadamente la información contenida en dicho archivo.
 
 
