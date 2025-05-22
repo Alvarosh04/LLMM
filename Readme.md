@@ -91,24 +91,37 @@ Ejercicios DOOM | Descripción
 
 Unidad 4 (XML+XML-DOM+AJAX+JASON+RSS)  | Descripción
 ---------|----------
-[Ejercicio 1 XML]() | 
-[Ejercicio 2 XML]() | 
-[Ejercicio 3 XML]() | 
-[Ejercicio 4 XML]() |
-[Ejercicio 5 XML]() |
-[Ejercicio 6 XML]() | 
-[Ejercicio 7 XML]() |
+[Ejercicio 1 A XML](Trimestre 3/Xml_Exercises/1_a.xml) | How should an element with the name test element and the content "This is our first element!" look?
+[Ejercicio 1 B XML](Trimestre 3/Xml_Exercises/1_b.xml) | Please show (in xml-syntax) the hierarchy of the element book with the subelements chapters and author.  author has the further subelements name and address.
+[Ejercicio 1 C XML](Trimestre 3/Xml_Exercises/1_c.xml) | How does an element with the name entry which has got 2 attributes: no with the value 24 and date with the value 27.10.2004 look?
+[Ejercicio 2 XML](Trimestre 3/Xml_Exercises/2.xml) | Analyse the XML file below. 
+[Ejercicio 3 XML](Trimestre 3/Xml_Exercises/3.xml) | Analyse the following XML file. Correct errors in design.
+[Ejercicio 4 XML](Trimestre 3/Xml_Exercises/4.xml) | Mark up the following email message to identify its information content:
+[Ejercicio 5 A XML](Trimestre 3/Xml_Exercises/5_a.xml) | XML file, CD information
+[Ejercicio 5 B XML](Trimestre 3/Xml_Exercises/5_b.xml) | XML file, CD information
+[Ejercicio 6 XML](Trimestre 3/Xml_Exercises/6.xml) | Create a letter structure in XML, including sender and receiver information, date, text body and a signature. Make a document instance with contents. Save your file as Ex6.xml.
 
-[Ejercicio 1 XML DOM]() | 
-[Ejercicio 2 XML DOM]() | 
-[Ejercicio 3 XML DOM]() |
+[Ejercicio 7 A XML](Trimestre 3/Xml_Exercises/7_a.xml) | What do comments look like in XML?
+[Ejercicio 7 B XML](Trimestre 3/Xml_Exercises/7_b.xml) | Can an attribute be repeated in the same element?
+[Ejercicio 7 C XML](Trimestre 3/Xml_Exercises/7_c.xml) | Where is it stated that the element names in opening and closing tags must match?
 
-[Ejercicio 1 AJAX]() | 
-[Ejercicio 2 AJAX]() | 
-[Ejercicio 3 AJAX]() | 
-[Ejercicio 4 AJAX]() |
-[Ejercicio 5 AJAX]() |
+[Ejercicio 1 XML DOM](Trimestre 3/XML_DOM_Exercises/1.html) | Escribe el código necesario para obtener los siguientes datos:
+[Ejercicio 2 XML DOM](Trimestre 3/XML_DOM_Exercises/2.html) | Escribe el código necesario para obtener los siguientes datos
+[Ejercicio 3 XML DOM](Trimestre 3/XML_DOM_Exercises/3.html) | Escribe el código necesario para obtener los siguientes datos:
 
-[Ejercicio 1 RSS]() | 
+[Ejercicio 1 AJAX](Trimestre 3/AJAX_Exercises/1.html) | Using the cd_catalog.xml file and the following code:
+[Ejercicio 2 AJAX](Trimestre 3/AJAX_Exercises/2.html) | Escribe un programa que muestre información meteorológica de una localidad de Huelva (o cualquier otra provincia de tu elección): temperatura máxima y mínima, estado del cielo por tramo horario, dirección y velocidad del viento y humedad relativa).
+[Ejercicio 3 AJAX](Trimestre 3/AJAX_Exercises/3.html) | En este ejercicio usaremos el archivo “json_demo_array” y el editor de w3schools. Responde a los siguientes apartados.
+[Ejercicio 4 AJAX](Trimestre 3/AJAX_Exercises/4.html) | En este ejercicio usaremos el archivo “json_demo” y el editor de w3schools. Responde a los siguientes apartados. Aqui es todos los apartados juntos
+[Ejercicio 4 A AJAX](Trimestre 3/AJAX_Exercises/4_a.js) | Muestra edad
+[Ejercicio 4 B AJAX](Trimestre 3/AJAX_Exercises/4_b.js) | Muestra del primer elemento pets, el tipo de animal
+[Ejercicio 4 C AJAX](Trimestre 3/AJAX_Exercises/4_c.js) | Muestra del primer elemento pets, el nombre
+[Ejercicio 4 D AJAX](Trimestre 3/AJAX_Exercises/4_d.js) | Muestra el número de mascotas (pets);
+[Ejercicio 4 E AJAX](Trimestre 3/AJAX_Exercises/4_e.js) | Muestra el nombre de todas las mascotas
+[Ejercicio 4 F AJAX](Trimestre 3/AJAX_Exercises/4_f.js) | Muestra todos los datos en un párrafo
+[Ejercicio 4 G AJAX](Trimestre 3/AJAX_Exercises/4_g.js) | Muestra los datos usando una tabla.
+[Ejercicio 5 AJAX](Trimestre 3/AJAX_Exercises/5.html) | En este ejercicio usaremos un servicio de datos de la NASA a través de una API.
+
+[Ejercicio 1 RSS](Trimestre 3/RSS/1.html) | Crea una página web que lea un archivo RSS mediante AJAX. Elige un archivo de RSS de tu  elección y muestra apropiadamente la información contenida en dicho archivo.
 
 
