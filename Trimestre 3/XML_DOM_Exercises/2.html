@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Ejercicio 2 - CD Catalog</title>
+</head>
+<body>
+  <h1>Catálogo de CDs</h1>
+  <div id="demo"></div>
+
+  <script>
+    const xhttp = new XMLHttpRequest();
+    xhttp.onload = function () {
+      const xmlDoc = this.responseXML;
+
+      // Mostrar los títulos
+      let titulos = "<h2>🎵 Títulos</h2>";
+      const tituloElems = xmlDoc.getElementsByTagName("TITLE");
+      for (let i = 0; i < tituloElems.length; i++) {
+        titulos += tituloElems[i].textContent + "<br>";
+      }
+
+      // Mostrar los precios
+      let precios = "<h2>💰 Precios</h2>";
+      const precioElems = xmlDoc.getElementsByTagName("PRICE");
+      for (let i = 0; i < precioElems.length; i++) {
+        precios += precioElems[i].textContent + " €<br>";
+      }
+
+      // Mostrar las compañías
+      let companias = "<h2>🏢 Compañías</h2>";
+      const companiaElems = xmlDoc.getElementsByTagName("COMPANY");
+      for (let i = 0; i < companiaElems.length; i++) {
+        companias += companiaElems[i].textContent + "<br>";
+      }
+
+      // Mostrar todo junto
+      document.getElementById("demo").innerHTML = titulos + "<hr>" + precios + "<hr>" + companias;
+    };
+
+    xhttp.open("GET", "https://www.w3schools.com/js/cd_catalog.xml", true);
+    xhttp.send();
+  </script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ejercicio JSON - W3Schools</title>
+</head>
+<body>
+
+<h2>Ejercicio 4 - JSON</h2>
+
+<button onclick="loadJSON()">Cargar datos</button>
+<div id="demo"></div>
+
+<script>
+function loadJSON() {
+  const xhttp = new XMLHttpRequest();
+  xhttp.onload = function () {
+    const myObj = JSON.parse(this.responseText);
+
+    // 1. Mostrar edad
+    let txt = "<h3>1. Edad:</h3>" + myObj.age;
+
+    // 2. Tipo del primer animal
+    txt += "<h3>2. Tipo del primer animal:</h3>" + myObj.pets[0].type;
+
+    // 3. Nombre del primer animal
+    txt += "<h3>3. Nombre del primer animal:</h3>" + myObj.pets[0].name;
+
+    // 4. Número de mascotas
+    txt += "<h3>4. Número de mascotas:</h3>" + myObj.pets.length;
+
+    // 5. Nombre de todas las mascotas
+    txt += "<h3>5. Nombres de todas las mascotas:</h3><ul>";
+    for (let i = 0; i < myObj.pets.length; i++) {
+      txt += "<li>" + myObj.pets[i].name + "</li>";
+    }
+    txt += "</ul>";
+
+    // 6. Todos los datos en un párrafo
+    txt += "<h3>6. Datos en un párrafo:</h3>";
+    txt += "<p>Nombre: " + myObj.name + ", Edad: " + myObj.age + ". Mascotas: ";
+    for (let i = 0; i < myObj.pets.length; i++) {
+      txt += myObj.pets[i].name + " (" + myObj.pets[i].type + ")";
+      if (i < myObj.pets.length - 1) txt += ", ";
+    }
+    txt += ".</p>";
+
+    // 7. Mostrar los datos usando una tabla
+    txt += "<h3>7. Datos en tabla:</h3>";
+    txt += "<table border='1'><tr><th>Nombre</th><th>Tipo</th></tr>";
+    for (let i = 0; i < myObj.pets.length; i++) {
+      txt += "<tr><td>" + myObj.pets[i].name + "</td><td>" + myObj.pets[i].type + "</td></tr>";
+    }
+    txt += "</table>";
+
+    document.getElementById("demo").innerHTML = txt;
+  };
+
+  // Cargar el JSON desde W3Schools
+  xhttp.open("GET", "https://www.w3schools.com/js/json_demo.txt", true);
+  xhttp.send();
+}
+</script>
+
+</body>
+</html>

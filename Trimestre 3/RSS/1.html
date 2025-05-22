@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Lectura de RSS con AJAX</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .item {
+      border-bottom: 1px solid #ccc;
+      padding: 10px 0;
+    }
+    .item h3 {
+      margin: 0;
+    }
+    .item p {
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+
+<h2>Noticias de Tecnología - El País (RSS)</h2>
+<div id="rss-feed">Cargando noticias...</div>
+
+<script>
+function loadRSS() {
+  const proxy = "https://api.allorigins.win/get?url=";
+  const feedUrl = encodeURIComponent("https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/tecnologia/portada");
+
+  fetch(proxy + feedUrl)
+    .then(response => {
+      if (!response.ok) throw new Error("Error al cargar el RSS");
+      return response.json();
+    })
+    .then(data => {
+      const parser = new DOMParser();
+      const xmlDoc = parser.parseFromString(data.contents, "text/xml");
+
+      const items = xmlDoc.getElementsByTagName("item");
+      let html = "";
+
+      for (let i = 0; i < 5; i++) {
+        const title = items[i].getElementsByTagName("title")[0].textContent;
+        const link = items[i].getElementsByTagName("link")[0].textContent;
+        const description = items[i].getElementsByTagName("description")[0].textContent;
+
+        html += `
+          <div class="item">
+            <h3><a href="${link}" target="_blank">${title}</a></h3>
+            <p>${description}</p>
+          </div>
+        `;
+      }
+
+      document.getElementById("rss-feed").innerHTML = html;
+    })
+    .catch(error => {
+      document.getElementById("rss-feed").innerHTML = "Error al cargar el RSS.";
+      console.error(error);
+    });
+}
+
+loadRSS();
+</script>
+
+</body>
+</html>
+
+

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Ejercicio XML con libros reales</title>
+</head>
+<body>
+  <h1>Consulta de libros XML</h1>
+
+  <script>
+    // XML como string local (simulando un archivo real)
+    const xmlText = `
+    <catalog>
+      <book id="bk101">
+        <author>Gabriel García Márquez</author>
+        <title>Cien años de soledad</title>
+        <genre>Ficción</genre>
+        <price>12.95</price>
+        <year>1967</year>
+      </book>
+      <book id="bk102">
+        <author>J.K. Rowling</author>
+        <title>Harry Potter y la piedra filosofal</title>
+        <genre>Fantasía</genre>
+        <price>15.00</price>
+        <year>1997</year>
+      </book>
+      <book id="bk103">
+        <author>George R. R. Martin</author>
+        <author>Elio García</author>
+        <title>Juego de tronos</title>
+        <genre>Fantasía</genre>
+        <price>22.00</price>
+        <year>1996</year>
+      </book>
+      <book id="bk104" language="English" format="Hardcover">
+        <author>Isabel Allende</author>
+        <title>La casa de los espíritus</title>
+        <genre>Drama</genre>
+        <price>18.50</price>
+        <year>1982</year>
+      </book>
+    </catalog>
+    `;
+
+    // Convertir el string a XML DOM
+    const parser = new DOMParser();
+    const xmlDoc = parser.parseFromString(xmlText, "text/xml");
+
+    const books = xmlDoc.getElementsByTagName("book");
+
+    // 1. Título del primer libro
+    console.log("Título del primer libro:");
+    console.log(xmlDoc.getElementsByTagName("title")[0].textContent);
+
+    // 2. Año del primer libro
+    console.log("Año del primer libro:");
+    console.log(xmlDoc.getElementsByTagName("year")[0].textContent);
+
+    // 3. Precio del segundo libro
+    console.log("Precio del segundo libro:");
+    console.log(xmlDoc.getElementsByTagName("price")[1].textContent);
+
+    // 4. Autor del primer libro
+    console.log("Autor del primer libro:");
+    console.log(books[0].getElementsByTagName('author')[0].textContent);
+
+    // 5. Primer autor del tercer libro
+    console.log("Primer autor del tercer libro:");
+    console.log(books[2].getElementsByTagName('author')[0].textContent);
+
+    // 6. Segundo autor del tercer libro
+    console.log("Segundo autor del tercer libro:");
+    console.log(books[2].getElementsByTagName('author')[1].textContent);
+
+    // 7. Nombre del primer atributo del primer libro
+    console.log("Nombre del primer atributo del primer libro:");
+    console.log(books[0].attributes[0]?.nodeName || "Sin atributos");
+
+    // 8. Valor del primer atributo del primer libro
+    console.log("Valor del primer atributo del primer libro:");
+    console.log(books[0].attributes[0]?.nodeValue || "Sin atributos");
+
+    // 9. Número de autores del tercer libro
+    console.log("Número de autores del tercer libro:");
+    console.log(books[2].getElementsByTagName('author').length);
+
+    // 10. Mostrar todos los autores del tercer libro
+    console.log("Todos los autores del tercer libro:");
+    const autores3 = books[2].getElementsByTagName('author');
+    for (let i = 0; i < autores3.length; i++) {
+      console.log(autores3[i].textContent);
+    }
+
+    // 11. Número de atributos del cuarto libro
+    console.log("Número de atributos del cuarto libro:");
+    console.log(books[3].attributes.length);
+
+    // 12. Valores de los atributos del cuarto libro
+    console.log("Valores de los atributos del cuarto libro:");
+    for (let i = 0; i < books[3].attributes.length; i++) {
+      console.log(books[3].attributes[i].nodeValue);
+    }
+  </script>
+</body>
+</html>
