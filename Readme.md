@@ -91,12 +91,24 @@ Ejercicios DOOM | Descripción
 
 Unidad 4 (XML+XML-DOM+AJAX+JASON+RSS)  | Descripción
 ---------|----------
-[Ejercicio 1]() | 
-[Ejercicio 2]() | 
-[Ejercicio 3]() | 
-[Ejercicio 4]() |
-[Ejercicio 5]() |
-[Ejercicio 6]() | 
-[Ejercicio 7]() | 
+[Ejercicio 1 XML]() | 
+[Ejercicio 2 XML]() | 
+[Ejercicio 3 XML]() | 
+[Ejercicio 4 XML]() |
+[Ejercicio 5 XML]() |
+[Ejercicio 6 XML]() | 
+[Ejercicio 7 XML]() |
+
+[Ejercicio 1 XML DOM]() | 
+[Ejercicio 2 XML DOM]() | 
+[Ejercicio 3 XML DOM]() |
+
+[Ejercicio 1 AJAX]() | 
+[Ejercicio 2 AJAX]() | 
+[Ejercicio 3 AJAX]() | 
+[Ejercicio 4 AJAX]() |
+[Ejercicio 5 AJAX]() |
+
+[Ejercicio 1 RSS]() | 
 
 
