@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Ejercicio 3 - Libros XML</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-top: 20px;
+    }
+    th, td {
+      border: 1px solid #aaa;
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background-color: #ddd;
+    }
+  </style>
+</head>
+<body>
+  <h1>📚 Ejercicio 3 - Análisis de libros</h1>
+  <div id="resultados"></div>
+  <div id="tabla"></div>
+
+  <script>
+    const xhttp = new XMLHttpRequest();
+    xhttp.onload = function () {
+      const xmlDoc = this.responseXML;
+      const books = xmlDoc.getElementsByTagName("book");
+
+      const resultados = [];
+
+      // 1. Título del primer libro
+      resultados.push("📘 Título del primer libro: " + books[0].getElementsByTagName("title")[0].textContent);
+
+      // 2. Todos los títulos
+      let allTitles = "";
+      for (let i = 0; i < books.length; i++) {
+        allTitles += "• " + books[i].getElementsByTagName("title")[0].textContent + "<br>";
+      }
+      resultados.push("<strong>📚 Todos los títulos:</strong><br>" + allTitles);
+
+      // 3. Número de atributos del cuarto libro
+      resultados.push("🔢 Número de atributos del cuarto libro: " + books[3].attributes.length);
+
+      // 4. Valor de los atributos del cuarto libro
+      let attrs = "";
+      for (let i = 0; i < books[3].attributes.length; i++) {
+        attrs += books[3].attributes[i].name + " = " + books[3].attributes[i].value + "<br>";
+      }
+      resultados.push("<strong>🧾 Atributos del cuarto libro:</strong><br>" + attrs);
+
+      // 5. Número de autores del tercer libro
+      const autores3 = books[2].getElementsByTagName("author");
+      resultados.push("👥 Número de autores del tercer libro: " + autores3.length);
+
+      // 6. Autores del tercer libro
+      let autoresLista = "";
+      for (let i = 0; i < autores3.length; i++) {
+        autoresLista += "• " + autores3[i].textContent + "<br>";
+      }
+      resultados.push("<strong>✍️ Autores del tercer libro:</strong><br>" + autoresLista);
+
+      // Mostrar resultados
+      document.getElementById("resultados").innerHTML = resultados.join("<hr>");
+
+      // 7. Tabla con título, primer autor, precio y año
+      let tablaHTML = "<h2>📊 Tabla de libros</h2><table>";
+      tablaHTML += "<tr><th>Título</th><th>Primer Autor</th><th>Precio</th><th>Año</th></tr>";
+
+      for (let i = 0; i < books.length; i++) {
+        const title = books[i].getElementsByTagName("title")[0]?.textContent || "-";
+        const author = books[i].getElementsByTagName("author")[0]?.textContent || "-";
+        const price = books[i].getElementsByTagName("price")[0]?.textContent || "-";
+        const year = books[i].getElementsByTagName("year")[0]?.textContent || "-";
+
+        tablaHTML += `<tr><td>${title}</td><td>${author}</td><td>${price}</td><td>${year}</td></tr>`;
+      }
+
+      tablaHTML += "</table>";
+      document.getElementById("tabla").innerHTML = tablaHTML;
+    };
+
+    xhttp.open("GET", "https://www.w3schools.com/xml/books.xml", true);
+    xhttp.send();
+  </script>
+</body>
+</html>

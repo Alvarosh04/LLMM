@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>NASA APOD - Ejercicio 5 JSON</title>
+</head>
+<body>
+
+<h2>NASA Astronomy Picture of the Day</h2>
+
+<button onclick="loadData()">Cargar datos de la NASA</button>
+
+<p><strong>Fecha:</strong> <span id="fecha"></span></p>
+<p><strong>Explicación:</strong> <span id="explicacion"></span></p>
+<p><strong>URL de imagen:</strong> <span id="url"></span></p>
+
+<img id="imagenNASA" src="" alt="Imagen de la NASA" style="max-width: 500px; display: block; margin-top: 20px;">
+
+<script>
+function loadData() {
+  const xhttp = new XMLHttpRequest();
+  const apiUrl = "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&date=2020-05-01";
+
+  xhttp.onload = function() {
+    const obj = JSON.parse(this.responseText);
+
+    // Mostrar datos
+    document.getElementById("fecha").innerText = obj.date;
+    document.getElementById("explicacion").innerText = obj.explanation;
+    document.getElementById("url").innerText = obj.url;
+
+    // Mostrar imagen
+    document.getElementById("imagenNASA").src = obj.url;
+  };
+
+  xhttp.onerror = function () {
+    alert("Error al cargar los datos desde la API de la NASA.");
+  };
+
+  xhttp.open("GET", apiUrl, true);
+  xhttp.send();
+}
+</script>
+
+</body>
+</html>

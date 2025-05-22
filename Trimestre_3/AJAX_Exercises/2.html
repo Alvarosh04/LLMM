@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Tiempo en Huelva</title>
+  <style>
+    body { font-family: Arial, sans-serif; }
+    .bloque { margin-bottom: 15px; }
+    .titulo { font-weight: bold; color: darkblue; }
+  </style>
+</head>
+<body>
+
+<h2>🌤️ Tiempo en Huelva (AEMET)</h2>
+<button onclick="obtenerTiempo()">Mostrar datos</button>
+
+<div id="salida"></div>
+
+<script>
+function obtenerTiempo() {
+  const xhr = new XMLHttpRequest();
+  xhr.open("GET", "https://www.aemet.es/xml/municipios/localidad_21041.xml", true);
+
+  xhr.onload = function () {
+    if (xhr.status === 200) {
+      const xml = xhr.responseXML;
+      let salida = "";
+
+      // Temperatura
+      const temperatura = xml.getElementsByTagName("temperatura")[0];
+      const max = temperatura.getElementsByTagName("maxima")[0].textContent;
+      const min = temperatura.getElementsByTagName("minima")[0].textContent;
+      salida += `<div class="bloque"><span class="titulo">🌡️ Temperatura:</span><br>Máxima: ${max} °C<br>Mínima: ${min} °C</div>`;
+
+      // Estado del cielo por tramo horario
+      const estados = xml.getElementsByTagName("estado_cielo");
+      salida += `<div class="bloque"><span class="titulo">☁️ Estado del cielo por hora:</span><br>`;
+      for (let i = 0; i < estados.length; i++) {
+        const periodo = estados[i].getAttribute("periodo");
+        const descripcion = estados[i].getAttribute("descripcion");
+        if (descripcion) {
+          salida += `⏰ ${periodo}h: ${descripcion}<br>`;
+        }
+      }
+      salida += `</div>`;
+
+      // Viento: dirección y velocidad
+      const vientos = xml.getElementsByTagName("viento");
+      salida += `<div class="bloque"><span class="titulo">💨 Viento:</span><br>`;
+      for (let i = 0; i < vientos.length; i++) {
+        const dir = vientos[i].getElementsByTagName("direccion")[0]?.textContent || "-";
+        const vel = vientos[i].getElementsByTagName("velocidad")[0]?.textContent || "-";
+        if (dir !== "-" && vel !== "-") {
+          salida += `Dirección: ${dir}, Velocidad: ${vel} km/h<br>`;
+        }
+      }
+      salida += `</div>`;
+
+      // Humedad relativa
+      const humedad = xml.getElementsByTagName("humedad_relativa")[0];
+      const humedadMax = humedad.getElementsByTagName("maxima")[0].textContent;
+      const humedadMin = humedad.getElementsByTagName("minima")[0].textContent;
+      salida += `<div class="bloque"><span class="titulo">💧 Humedad relativa:</span><br>Máxima: ${humedadMax}%<br>Mínima: ${humedadMin}%</div>`;
+
+      document.getElementById("salida").innerHTML = salida;
+    } else {
+      document.getElementById("salida").innerHTML = "❌ Error al cargar los datos.";
+    }
+  };
+
+  xhr.onerror = function () {
+    document.getElementById("salida").innerHTML = "❌ No se pudo conectar con AEMET (CORS).";
+  };
+
+  xhr.send();
+}
+</script>
+
+</body>
+</html>

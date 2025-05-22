@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<letter>
+  <sender>
+    <name>Laura Martínez</name>
+    <address>
+      <street>Calle Mayor 123</street>
+      <city>Madrid</city>
+      <postalcode>28013</postalcode>
+      <country>España</country>
+    </address>
+  </sender>
+  <receiver>
+    <name>Pedro Gómez</name>
+    <address>
+      <street>Avenida del Sol 45</street>
+      <city>Barcelona</city>
+      <postalcode>08008</postalcode>
+      <country>España</country>
+    </address>
+  </receiver>
+  <date>2025-05-22</date>
+  <body>
+    Estimado Pedro,
+
+    Solo quería escribirte unas líneas para agradecerte por tu ayuda en el proyecto. Tu apoyo fue clave para lograrlo a tiempo.
+
+    ¡Hablemos pronto!
+
+    Un cordial saludo,
+  </body>
+  <signature>Laura</signature>
+</letter>

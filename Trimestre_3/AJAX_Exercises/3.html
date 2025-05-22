@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Ejercicio 3 - JSON Array</title>
+</head>
+<body>
+
+<h2>Ejercicio 3 - JSON Array</h2>
+
+<button onclick="loadData()">Cargar Datos</button>
+
+<div id="resultado"></div>
+
+<script>
+function loadData() {
+  const xhttp = new XMLHttpRequest();
+  xhttp.onload = function() {
+    const myArr = JSON.parse(this.responseText);
+    
+    // 1. Mostrar longitud del array
+    let output = "<h3>1. Longitud del array:</h3>" + myArr.length;
+
+    // 2. Mostrar elementos en una tabla
+    output += "<h3>2. Elementos en tabla:</h3>";
+    output += "<table border='1'><tr><th>Nombre</th><th>Edad</th></tr>";
+
+    for (let i = 0; i < myArr.length; i++) {
+      output += "<tr><td>" + myArr[i].name + "</td><td>" + myArr[i].age + "</td></tr>";
+    }
+
+    output += "</table>";
+
+    document.getElementById("resultado").innerHTML = output;
+  };
+
+  xhttp.open("GET", "https://www.w3schools.com/js/json_demo_array.txt", true);
+  xhttp.send();
+}
+</script>
+
+</body>
+</html>
+

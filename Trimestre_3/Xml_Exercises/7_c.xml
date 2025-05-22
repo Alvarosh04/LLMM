@@ -1,0 +1,4 @@
+<!--Correcto-->
+<mensaje>Hola</mensaje>
+<!-- Incorrecto-->
+<mensaje>Hola</msg>
